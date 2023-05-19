@@ -21,6 +21,8 @@ if (
 ) {
     var messaging = getMessaging();
 
+    navigator.serviceWorker.register('/assd/firebase-messaging-sw.js');
+
     // already granted
     if (Notification.permission === 'granted') {
         getTokenFoo();
