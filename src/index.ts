@@ -3,7 +3,13 @@ import {initializeApp} from "firebase/app";
 import {getMessaging, getToken, onMessage} from "firebase/messaging";
 
 initializeApp({
-    messagingSenderId: '448358493027'
+    apiKey: "AIzaSyBUsCS9BkC6Er6BqTuAJqOQyGDP9MEBGi8",
+    authDomain: "gilmon-test-6c6ac.firebaseapp.com",
+    projectId: "gilmon-test-6c6ac",
+    storageBucket: "gilmon-test-6c6ac.appspot.com",
+    messagingSenderId: "104942036970",
+    appId: "1:104942036970:web:4057afdb9310988467f493",
+    measurementId: "G-59209BLT46"
 });
 
 if (
